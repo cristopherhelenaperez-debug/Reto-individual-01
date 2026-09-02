@@ -1,0 +1,45 @@
+.Fotos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; 
+    justify-content: space-around;   
+    width: 100%;
+    
+}
+.descripcion{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+header{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+em{
+    font-size: 28px;
+}
+ul{
+    margin: 0 25px 0 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    justify-content: space-around;
+}
+.form{
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    width: 60%;
+    margin: auto;
+}
+li{
+    list-style: none;
+    align-content: center;
+    padding: 0;
+    margin: 0;
+    font-weight: bold;
+}
+
