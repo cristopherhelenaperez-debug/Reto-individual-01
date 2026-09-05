@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belliard Muebles</title>
+</head>
+<body>
+    <!-- Encabezado -->
+    <header style="text-align: center;">
+        <h1>Belliar Muebles</h1>
+        <p><em>"Diseños a la medida para tu hogar"</em></p>
+    </header>
+    <div class="Fotos" style="text-align: center;">
+        <img src="..//Evidencia1.jpeg" alt="Fotografia del local">
+        <!--<img src="..//Evidencia2.jpeg" alt="Fotografia del local">-->
+    </div>
+    
+    <!-- Descripción breve -->
+    <div class="descripcion" style="text-align: center;">
+        <p>
+            Taller de ebanistería ubicado en Los Alcarrizos. Realizamos toda clase de trabajos de ebanistería: muebles para sala, comedor, habitación, cocina, baños, 
+            entre otros, con maderas como roble, pino y caoba (<strong>Nuestra especialidad</strong>). También se trabaja tapicería, pintura, reparación, fabricación y montura. En resumen, todo lo que necesitas en el mismo, ¡Que esperas! 
+        </p>
+        <p><strong>Horario de servicio</strong><br> Lunes a Sabado: <strong>7:00AM a 6:00PM</strong>
+        <p><strong>Contactos    </strong><br>Para mas informacion puede contarnos por <a href="https://wa.me/8294508809" target="_blank" title="Contactar por Whatsapp">WhatsApp</a> | 
+        <a href="https://www.instagram.com/helenabelliard/" target="_blank" title="Contactar por Instagram">Instagram</a> | 
+        <a href="https://www.facebook.com/share/1Ei1giLztJ/?mibextid=wwXIfr" target="_blank" title="Contactar por Facebook">Facebook</a>.</p>
+    </div>
+    
+    <div class="trabajos" style="text-align: center;">
+        <h2 >Sercios disponibles</h2>
+        <ul style="text-align: center; display: flex; justify-content: space-around; list-style: none;">
+            <li style="font-weight: bolder;">Reparación</li>
+            <li style="font-weight: bolder;">Pintura</li>
+            <li style="font-weight: bolder;">tapicería</li>
+            <li style="font-weight: bolder;">Fabricacion</li>
+        </ul>
+    </div>
+
+    <form action="procesar.php" method="post" class="form" style="display: flex; justify-content: center; flex-flow: column; width: 60%; margin: auto; text-align: center;">
+        <h2>Reserva o Contacto</h2>
+        <label for="nombre" >Nombre:</label>
+        <input type="text" name="nombre" placeholder="Nombre" required><br>
+        <label for="nombre">Email:</label>
+        <input type="email" name="email" placeholder="Email" required><br>
+        <label for="nombre">Telefono:</label>
+        <input type="number" id="Telefono" name="Telefono" placeholder="8095555555"required><br>
+        <label for="nombre">Mensaje:</label><br>
+        <textarea name="mensaje" id="mensaje" placeholder="mensaje" rows="5"></textarea>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+</body>
+</html>
